@@ -1,0 +1,20 @@
+{
+  "name": "anti-raid-bot",
+  "version": "1.0.0",
+  "description": "Bot Anti-Raid Discord com Backup, IA, Proteção e Ações Automáticas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@discordjs/rest": "^2.4.0",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
