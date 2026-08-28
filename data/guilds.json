@@ -1,0 +1,94 @@
+{
+  "1487875454638620893": {
+    "protection": {
+      "addBot": {
+        "enabled": true,
+        "logChannel": null
+      },
+      "webhook": {
+        "enabled": false,
+        "logChannel": null
+      },
+      "channelCreate": {
+        "enabled": true,
+        "logChannel": "1487904111553810525"
+      },
+      "massBan": {
+        "enabled": false,
+        "logChannel": null,
+        "threshold": 3,
+        "interval": 10
+      },
+      "massKick": {
+        "enabled": false,
+        "logChannel": null,
+        "threshold": 3,
+        "interval": 10
+      }
+    },
+    "ia": {
+      "apiKey": null,
+      "prompt": "Analisa esta mensagem/imagem e determina se contém conteúdo prejudicial.",
+      "model": "grok-2-vision",
+      "logChannel": "1487904111553810525",
+      "enabled": false
+    },
+    "autoMessages": {
+      "enabled": false,
+      "channel": "1487875455087542343",
+      "message": "awdwad",
+      "type": "content",
+      "cronExpression": "* * * * *"
+    },
+    "entrada": {
+      "enabled": true,
+      "channel": "1487875455087542343"
+    }
+  },
+  "1475603648577933406": {
+    "protection": {
+      "addBot": {
+        "enabled": true,
+        "logChannel": "1489389689193627649"
+      },
+      "webhook": {
+        "enabled": true,
+        "logChannel": "1489389689193627649"
+      },
+      "channelCreate": {
+        "enabled": true,
+        "logChannel": "1489389689193627649"
+      },
+      "massBan": {
+        "enabled": true,
+        "logChannel": "1489389689193627649",
+        "threshold": 3,
+        "interval": 10
+      },
+      "massKick": {
+        "enabled": true,
+        "logChannel": "1489389689193627649",
+        "threshold": 3,
+        "interval": 10
+      }
+    },
+    "ia": {
+      "apiKey": null,
+      "prompt": "Analisa esta mensagem/imagem e determina se contém conteúdo prejudicial.",
+      "model": "grok-beta",
+      "logChannel": null,
+      "enabled": false
+    },
+    "autoMessages": {
+      "enabled": false,
+      "channel": null,
+      "message": null,
+      "type": "content",
+      "cronExpression": "0 * * * *"
+    },
+    "entrada": {
+      "enabled": false,
+      "channel": null
+    }
+  }
+}
